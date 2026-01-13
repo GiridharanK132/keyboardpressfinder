@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>giri</title>
+</head>    
+<body>
+    <button id="sj">Irukku</button>
+</body>
+<script>
+ let btn= document.getElementById("sj");
+ btn.addEventListener("click",(event)=>{
+    btn.textContent ="Aana illa";
+    console.log("clicked");
+ });
+
+  btn.addEventListener("mouseover",(event)=>{
+    btn.textContent ="oruvela erukumo";
+    console.log("hover");
+ });
+
+ btn.addEventListener("mouseout",(event)=>{
+    btn.textContent ="oruvela erukumo";
+    console.log("mouseout");
+ });
+ 
+</script>
+</html>
